@@ -1,0 +1,5 @@
+rootProject.name = 'xiaowanzi'
+include "api"
+include "common"
+project(':api').projectDir = "$rootDir/api" as File
+project(':common').projectDir = "$rootDir/common" as File
